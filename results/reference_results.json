@@ -1,0 +1,88 @@
+{
+  "partition": {
+    "W": 4.723977464350663,
+    "log_Z_empirical": 3.5213274496306006,
+    "log_Z_se": 0.002415622316951388,
+    "log_Z_lower_bound": -4.723977464350663,
+    "log_Z_upper_bound": 4.723977464350663,
+    "bound_satisfied": true
+  },
+  "mixing": {
+    "W": 4.723977464350663,
+    "empirical_mixing_steps": 44,
+    "step_size": 0.005,
+    "empirical_mixing_time_continuous": 0.22,
+    "theoretical_upper_bound": 3849.4434460611806,
+    "ratio_emp_over_thm": 5.7151118878005064e-05
+  },
+  "laplace": [
+    {
+      "beta": 1.0,
+      "E_max_normalised": 1.0,
+      "log_Z_empirical": 0.730702923981589,
+      "log_Z_leading_order": 1.0,
+      "log_Z_minus_leading": -0.269297076018411,
+      "expected_subleading_n_log_beta": 0.0
+    },
+    {
+      "beta": 4.0,
+      "E_max_normalised": 1.0,
+      "log_Z_empirical": 2.973347512892646,
+      "log_Z_leading_order": 4.0,
+      "log_Z_minus_leading": -1.026652487107354,
+      "expected_subleading_n_log_beta": -8.317766166719343
+    },
+    {
+      "beta": 16.0,
+      "E_max_normalised": 1.0,
+      "log_Z_empirical": 12.506384205146711,
+      "log_Z_leading_order": 16.0,
+      "log_Z_minus_leading": -3.493615794853289,
+      "expected_subleading_n_log_beta": -16.635532333438686
+    }
+  ],
+  "scaling": [
+    {
+      "n": 2,
+      "m": 1,
+      "W_mean": 1.022711224148952,
+      "W_std": 0.3028318114348368,
+      "W_median": 1.0076382522760217
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "W_mean": 2.8906298248772,
+      "W_std": 0.47328120128160917,
+      "W_median": 2.9008201897965393
+    },
+    {
+      "n": 8,
+      "m": 9,
+      "W_mean": 8.63434802894717,
+      "W_std": 0.7265689196329386,
+      "W_median": 8.896438719183294
+    },
+    {
+      "n": 16,
+      "m": 23,
+      "W_mean": 22.71602169485502,
+      "W_std": 1.43196496205188,
+      "W_median": 23.051776249211223
+    },
+    {
+      "n": 32,
+      "m": 56,
+      "W_mean": 55.41989565643924,
+      "W_std": 2.073751523779277,
+      "W_median": 55.59079627372102
+    },
+    {
+      "n": 64,
+      "m": 134,
+      "W_mean": 134.3517391906643,
+      "W_std": 2.110480895293549,
+      "W_median": 133.885780708043
+    }
+  ]
+}

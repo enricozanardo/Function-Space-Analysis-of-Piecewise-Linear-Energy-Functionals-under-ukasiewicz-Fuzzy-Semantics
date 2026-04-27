@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+title: >-
+  Numerical validation for "Function Space Analysis of Piecewise-Linear Energy
+  Functionals under Lukasiewicz Fuzzy Semantics"
+message: >-
+  If you use this software, please cite both the software itself
+  (this metadata) and the accompanying manuscript.
+type: software
+authors:
+  - given-names: Enrico
+    family-names: Zanardo
+    email: enrico.zanardo101@gmail.com
+    affiliation: >-
+      Signum Magnum College, Portomaso, Malta;
+      Universitas Mercatorum, Rome, Italy
+    orcid: "https://orcid.org/0000-0001-7305-3034"
+  - given-names: Maria Alessandra
+    family-names: Ragusa
+    affiliation: "Universita degli Studi di Catania, Catania, Italy"
+repository-code: >-
+  https://github.com/enricozanardo/Function-Space-Analysis-of-Piecewise-Linear-Energy-Functionals-under-ukasiewicz-Fuzzy-Semantics
+abstract: >-
+  Reproducibility script for the numerical validation of the analytical
+  bounds derived in "Function Space Analysis of Piecewise-Linear Energy
+  Functionals under Lukasiewicz Fuzzy Semantics".  The script provides a
+  Monte Carlo estimate of the log-partition function, an empirical
+  reflected-Langevin mixing-time check, a Laplace-asymptotic verification,
+  and an empirical scaling study of the total weight norm W as a function
+  of the number of atoms n.  Self-contained: depends only on numpy and
+  scipy; runs in under 60 s on a single CPU core; bit-reproducible under a
+  fixed random seed.
+keywords:
+  - Lukasiewicz logic
+  - Markov logic networks
+  - Gibbs measures
+  - Sobolev regularity
+  - Bounded variation
+  - Langevin dynamics
+  - Poincare inequality
+  - log-Sobolev inequality
+  - neuro-symbolic AI
+  - reproducibility
+license: MIT
+version: 1.0.0
+date-released: "2026-04-27"
+preferred-citation:
+  type: software
+  title: >-
+    Numerical validation for "Function Space Analysis of Piecewise-Linear
+    Energy Functionals under Lukasiewicz Fuzzy Semantics"
+  authors:
+    - given-names: Enrico
+      family-names: Zanardo
+    - given-names: Maria Alessandra
+      family-names: Ragusa
+  version: 1.0.0
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: 10.5281/zenodo.PLACEHOLDER
+references:
+  - type: article
+    title: >-
+      Function Space Analysis of Piecewise-Linear Energy Functionals under
+      Lukasiewicz Fuzzy Semantics
+    authors:
+      - given-names: Enrico
+        family-names: Zanardo
+      - given-names: Maria Alessandra
+        family-names: Ragusa
+    year: 2026
+    notes: Companion manuscript.
