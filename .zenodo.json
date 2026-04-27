@@ -1,0 +1,40 @@
+{
+  "title": "Numerical validation for \"Function Space Analysis of Piecewise-Linear Energy Functionals under \u0141ukasiewicz Fuzzy Semantics\"",
+  "description": "<p>Companion code for the manuscript <em>Function Space Analysis of Piecewise-Linear Energy Functionals under \u0141ukasiewicz Fuzzy Semantics</em> (Zanardo &amp; Ragusa, 2026).</p><p>This repository contains the self-contained Python script <code>numerical_validation.py</code> that reproduces, in under one minute on a single CPU core and under a fixed random seed, every numerical figure reported in Section 8 of the manuscript: Monte\u2010Carlo estimates of the partition function, an empirical reflected-Langevin mixing time, the leading-order Laplace asymptotic, and the empirical scaling of the weight norm <em>W</em>(<em>n</em>).</p><p>Dependencies: <code>numpy</code>, <code>scipy</code>. License: MIT.</p>",
+  "creators": [
+    {
+      "name": "Zanardo, Enrico",
+      "affiliation": "Signum Magnum College, Portomaso, Malta; Universitas Mercatorum, Rome, Italy",
+      "orcid": "0000-0001-7305-3034"
+    },
+    {
+      "name": "Ragusa, Maria Alessandra",
+      "affiliation": "Universit\u00e0 degli Studi di Catania, Catania, Italy"
+    }
+  ],
+  "keywords": [
+    "fuzzy logic",
+    "Lukasiewicz semantics",
+    "Markov logic networks",
+    "Gibbs measures",
+    "Langevin dynamics",
+    "Monte Carlo",
+    "functional inequalities",
+    "Horn knowledge bases",
+    "neural-symbolic reasoning"
+  ],
+  "license": "mit-license",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "version": "v1.0.1",
+  "communities": [],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/enricozanardo/Function-Space-Analysis-of-Piecewise-Linear-Energy-Functionals-under-ukasiewicz-Fuzzy-Semantics",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "publication-article"
+    }
+  ]
+}
