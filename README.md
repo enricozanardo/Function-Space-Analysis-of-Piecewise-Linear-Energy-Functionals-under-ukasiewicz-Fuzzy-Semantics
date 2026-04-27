@@ -56,12 +56,17 @@ experiments/
 
 This repository follows [semantic versioning](https://semver.org).
 
-- **v1.0.0** (2026-04-27) — first public release accompanying the manuscript.
+- **v1.0.1** (2026-04-27) — first Zenodo-archived release; metadata bump only.
+  Code identical to v1.0.0; the new tag was published after the
+  GitHub–Zenodo integration was enabled, so this is the snapshot that
+  carries a permanent DOI.
+- **v1.0.0** (2026-04-27) — first public release accompanying the manuscript;
+  not Zenodo-archived because the integration was enabled afterwards.
 
-Tagged releases are archived on Zenodo and assigned a permanent DOI through
-the [GitHub–Zenodo integration](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
-Once the integration is enabled and a Zenodo deposit has been minted, the
-DOI badge below will resolve to the archived snapshot:
+Tagged releases are archived on Zenodo through the
+[GitHub–Zenodo integration](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
+Once the deposit has been minted, the DOI badge below resolves to the
+archived snapshot:
 
 ```
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
@@ -78,7 +83,7 @@ If you use this software, please cite both the software and the manuscript:
                Piecewise-Linear Energy Functionals under {\L}ukasiewicz
                Fuzzy Semantics''},
   year      = {2026},
-  version   = {v1.0.0},
+  version   = {v1.0.1},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.PLACEHOLDER},
   url       = {https://github.com/enricozanardo/Function-Space-Analysis-of-Piecewise-Linear-Energy-Functionals-under-ukasiewicz-Fuzzy-Semantics}

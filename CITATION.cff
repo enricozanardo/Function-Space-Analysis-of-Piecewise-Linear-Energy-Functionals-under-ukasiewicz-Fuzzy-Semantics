@@ -41,7 +41,7 @@ keywords:
   - neuro-symbolic AI
   - reproducibility
 license: MIT
-version: 1.0.0
+version: 1.0.1
 date-released: "2026-04-27"
 preferred-citation:
   type: software
@@ -53,7 +53,7 @@ preferred-citation:
       family-names: Zanardo
     - given-names: Maria Alessandra
       family-names: Ragusa
-  version: 1.0.0
+  version: 1.0.1
   year: 2026
   publisher:
     name: Zenodo
