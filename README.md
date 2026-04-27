@@ -72,28 +72,33 @@ This repository follows [semantic versioning](https://semver.org).
 
 Tagged releases are archived on Zenodo through the
 [GitHub–Zenodo integration](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
-Once the deposit has been minted, the DOI badge below resolves to the
-archived snapshot:
+The current archived snapshot is `v1.0.3`:
 
-```
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PLACEHOLDER.svg)](https://doi.org/10.5281/zenodo.PLACEHOLDER)
-```
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19820157.svg)](https://doi.org/10.5281/zenodo.19820157)
 
 ## Citation
 
-If you use this software, please cite both the software and the manuscript:
+If you use this software, please cite both the software and the manuscript.
+
+**Plain text (APA):**
+
+> Zanardo, E., & Ragusa, M. A. (2026). *Numerical validation for "Function
+> Space Analysis of Piecewise-Linear Energy Functionals under Łukasiewicz
+> Fuzzy Semantics"* (v1.0.3) [Software]. Zenodo.
+> https://doi.org/10.5281/zenodo.19820157
+
+**BibTeX:**
 
 ```bibtex
-@software{zanardo2026numericalvalidation,
-  author    = {Zanardo, Enrico and Ragusa, Maria Alessandra},
-  title     = {Numerical validation for ``Function Space Analysis of
-               Piecewise-Linear Energy Functionals under {\L}ukasiewicz
-               Fuzzy Semantics''},
-  year      = {2026},
-  version   = {v1.0.3},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.PLACEHOLDER},
-  url       = {https://github.com/enricozanardo/Function-Space-Analysis-of-Piecewise-Linear-Energy-Functionals-under-ukasiewicz-Fuzzy-Semantics}
+@misc{zanardo2026numericalvalidation,
+  author       = {Zanardo, Enrico and Ragusa, Maria Alessandra},
+  title        = {Numerical validation for ``Function Space Analysis of
+                  Piecewise-Linear Energy Functionals under {\L}ukasiewicz
+                  Fuzzy Semantics'' (v1.0.3)},
+  year         = {2026},
+  howpublished = {Software, Zenodo},
+  doi          = {10.5281/zenodo.19820157},
+  url          = {https://doi.org/10.5281/zenodo.19820157}
 }
 ```
 
